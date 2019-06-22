@@ -110,7 +110,7 @@ call s:h("Repeat", s:orange_dirty_dark, s:bg, "")
 call s:h("Label", s:orange_dirty_dark, s:bg, "")
 call s:h("Operator", s:orange_dirty_dark, s:bg, "")
 call s:h("Keyword", s:orange_dirty_dark, s:bg, "")
-call s:h("Exeption", s:orange_dirty_dark, s:bg, "")
+call s:h("Exception", s:orange_dirty_dark, s:bg, "")
 
 " Preprocessor
 call s:h("PreProc", s:orange_dirty_light, s:bg, "")
@@ -206,10 +206,10 @@ call s:h("jsFuncCall", s:blue_green_lighter, s:bg, "")
 
 " Html
 call s:h("javaScriptNumber", s:orange_dirty, s:bg, "")
-call s:h("htmTag", s:purple_lighter, s:bg, "")
-call s:h("htmEndTag", s:purple_lighter, s:bg, "")
-call s:h("htmTagName", s:pink, s:bg, "")
-call s:h("htmString", s:green_dirty_dark, s:bg, "")
+call s:h("htmlTag", s:purple_lighter, s:bg, "")
+call s:h("htmlEndTag", s:purple_lighter, s:bg, "")
+call s:h("htmlTagName", s:pink, s:bg, "")
+call s:h("htmlString", s:green_dirty_dark, s:bg, "")
 
 " Vim
 call s:h("vimFold", s:gray, s:bg, "")
